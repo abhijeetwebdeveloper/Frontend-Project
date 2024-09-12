@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/1176230692/display_1500/stock-photo-concept-blur-people-background-many-people-walking-on-the-street-and-across-the-street-at-1176230692.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.style {
+    background-color: transparent;
+    width: 400px;
+    text-align: center;
+    margin-top: 250px;
+    border: 4px solid rgb(17, 7, 7);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+h1{
+    color: rgb(24, 21, 17);
+    font-weight: 500;
+    font-size: 40px;
+}
+
+h2{
+    color: rgb(10, 9, 7);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#increment{
+    width: 160px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: rgb(77, 75, 75);
+    color: aliceblue;
+}
+
+#increment:hover{
+    background-color: rgb(119, 170, 153);
+    color: #000;
+
+}
+
+#Save{
+    margin-top: 10px;
+    width: 160px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: rgb(160, 105, 105);
+    color: aliceblue;
+}
+
+#Save:hover{
+  background-color: rgb(97, 133, 134);
+}
+
+#savenum{
+    font-size: 30px;
+}
